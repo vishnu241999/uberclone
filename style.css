@@ -1,0 +1,541 @@
+@font-face{
+    font-family: uber;
+    src:url(UberMoveTextRegular.otf)
+format('opentype')}
+.header{
+    height: 64px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+body{
+    margin: 0;
+}
+.box1{
+width: 50%;
+
+}
+.box2{
+    width: 50%;
+
+}
+.boxright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+}
+.boxbutton{
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    height: 30px;
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+}
+.boxbutton:hover{
+   background-color: rgba(85, 85, 85, 0.5);
+}
+.uberlogo{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: xx-large;
+}
+.boxleft{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-content: center;
+    align-items: center;
+    margin-top: 14px;
+}
+.logo{
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    height: 30px;
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+    margin-right: 7px
+}
+.logo:hover{
+    background-color: rgba(85, 85, 85, 0.5);
+    transition: 0.2s;
+}
+.screenshot{
+    height: 35px;
+    margin-right: 15px;
+    border-radius: 14px;
+
+}
+.screenshot:hover{
+    background-color: rgba(85, 85, 85, 0.5);
+    transition: 0.2s;
+}
+.signup{
+    width: 80px;
+    height: 32px;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    margin-right: 90px;
+    cursor: pointer;
+}
+.signup:hover{
+    transition: 0.2s;
+    background-color: rgb(205, 205, 205);
+}
+imagess{
+    margin-top: 2px;
+}
+.body{
+    height: 825.5px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.innerdiv{
+    width: 1152px;
+    height: 697.5px;
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    
+}
+.innerleft{
+    width: 50%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.goanywhere{
+    font-size: 52px;
+    font-weight: 700;
+    font-family: uber;
+    line-height: 64px;
+    color: white;
+}
+.innerright{
+    width: 50%;
+    background-color: blueviolet;
+}
+.girlimage{
+    height: 100%;
+    width: 100%;
+}
+.request{
+    color: white;
+    font-family: uber;
+}
+.leftcontent3{
+    width: 396px;
+    height: 47.2px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 153px;
+
+}
+.content3div1{
+    width: 65px;
+    text-align: center;
+}
+.content3div3{
+    width: 65px;
+    text-align: center;
+}
+.content3div2{
+    flex: 1;
+}
+.leftcontent4{
+    width: 396px;
+    height: 47.2px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.content4div1{
+    width: 75px;
+    text-align: center;
+}
+.content4div2{
+    flex: 1;
+    text-align: left;
+}
+.leftcontent5{
+    width: 459px;
+    height: 60px;
+    margin-top: 75px;
+}
+.pricebutton{
+    width: 110px;
+    height: 42px;
+    border-radius: 13px;
+    border: none;
+}
+.location{
+    border: none;
+}
+.destination{
+    border: none;
+}
+.destination:active{
+    border-style: none;
+}
+.body2{
+    width: 1519.2px;
+    height: 686px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.insidebody{
+width: 1152px;
+height: 558px;
+display: flex;
+flex-direction: row;
+}
+.insidebodyleft{
+    width: 50%;
+}
+.insidebodyright{
+    width: 50%;
+}
+.earner{
+    width: 100%;
+    height: 100%;
+}
+.insidebodycontent1{
+    width: 100%;
+    height: 192px;
+    text-align: center;
+
+}
+.insidebodycontent2{
+    width: 100%;
+    height: 72px;
+}
+.insidebodycontent3{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.drive{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+    font-family: uber;
+}
+.paragraph{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    font-family: uber;
+    color: white;
+    padding-left: 102px;
+}
+.insidediv1{
+    width: 130px;
+}
+.insidediv2{
+    flex: 1;
+}
+.getstart{
+    border: none;
+    margin-left: 98px;
+    background: black;
+    color: white;
+    width: 135px;
+    height: 55px;
+    border-radius: 29px;
+    cursor: pointer;
+}
+.getstart:hover{
+    background-color: rgb(226, 226, 226);
+}
+.account{
+    text-decoration: underline;
+}
+.line{
+    width: 192px;
+}
+.signin{
+    text-align: center;
+    cursor: pointer;
+}
+.body3{
+    width: 1519.2px;
+    height: 686px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.insidebody3{
+    width: 1152px;
+    height: 558px;
+    display: flex;
+    flex-direction: row;
+}
+.body4{
+    width: 1519.2px;
+    height: 686px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.insidebody4{
+    width: 1152px;
+    height: 558px;
+    display: flex;
+    flex-direction: row;
+}
+.getstart3{
+    width: 115px;
+    height: 43px;
+    background-color: black;
+    color: white;
+    border-radius: 14px;
+    margin-left: 102px;
+}
+.getstart3:hover{
+    background-color: grey;
+    transform: 2s;
+}
+.bottom{
+    width: 100%;
+    height: 406px;
+    background-color:rgb(228, 228, 228);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bottomdiv{
+    width: 1152px;
+    height: 278px;
+    background-color:white;
+}
+.bottomheader{
+    width: 756px;
+    height: 44px;
+    background-color:white;
+    
+}
+
+.mainqr{
+    display: flex;
+    flex-direction: row;
+    height: 213px;
+}
+.qr1{
+    background-color: orange;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.qr2{
+    background-color: yellow;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.qrcode{
+    width: 40%;
+    height: 100%;
+    background-color: black;
+
+}
+.download{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+.arrow{
+    width: 10%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    align-content: center;
+}
+.scannerfinal{
+    width: 100%;
+    height: 100%;
+}
+.uberapp{
+    text-align: center;
+    padding-top: 66px;
+}
+.end{
+    width: 1519.2px;
+    height: 953.56px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.enddiv{
+    width: 1152px;
+    height: 825.56px;
+    background-color:black;
+}
+.help{
+    width: 756px;
+    height: 66.8px;
+    background-color: black;
+}
+.uberend{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: uber;
+    text-decoration: none;
+}
+.visithelp{
+    width: 756px;
+    height: 66.8px;
+    background-color: black;
+}
+.visit1{
+    font-size: large;
+    color: white;
+}
+.lastcontainer{
+    display: flex;
+    flex-direction: row;
+    width: 1152px;
+    height: 332px;
+    justify-content: space-evenly;
+
+}
+.last{
+    font-family: uber;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    cursor: pointer;
+}
+.last:hover{
+    background-color: rgba(85, 85, 85, 0.5);
+}
+.container1{
+    font-family: uber;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+}
+.fblogo{
+    width: 100%;
+    height: 72px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+.fblogo1{
+    width: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fblogo2{
+    width: 50%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.eng{
+    padding-right: 40px;
+    font-weight: bolder;
+}
+.googleplay{
+    width: 558px;
+    height: 54.76px;
+    background-color: black;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.playlogo{
+    width: 128px;
+    height: 100%;
+    background-color: black;
+}
+.applelogo{
+    width: 128px;
+    height: 100%;
+    background-color: black;
+}
+.lastend{
+    width: 1152px;
+    height: 44px;
+    background-color: bl;
+    margin-top: 71px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.tech{
+    width: 261px;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+.privacy{
+    width: 261px;
+    height: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.apl{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 28px;
+    border-radius: 15px;
+}
+.ply{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.facebook{
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+}
+.privacylast{
+    cursor: pointer;
+}
+.privacylast:hover{
+    background-color: rgba(85, 85, 85, 0.5);
+}
