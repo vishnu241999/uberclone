@@ -10,6 +10,7 @@ format('opentype')}
 }
 body{
     margin: 0;
+    max-width: 100%;
 }
 .box1{
 width: 50%;
@@ -18,6 +19,18 @@ width: 50%;
 .box2{
     width: 50%;
 
+}
+.about{
+    color: white;
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+}
+select{
+    background-color: transparent;
+    border: none;
 }
 .boxright{
     display: flex;
@@ -206,7 +219,7 @@ imagess{
     border-style: none;
 }
 .body2{
-    width: 1519.2px;
+    width: 100%;
     height: 686px;
     display: flex;
     align-items: center;
@@ -290,7 +303,7 @@ flex-direction: row;
     cursor: pointer;
 }
 .body3{
-    width: 1519.2px;
+    width: 100%;
     height: 686px;
     display: flex;
     align-items: center;
@@ -303,7 +316,7 @@ flex-direction: row;
     flex-direction: row;
 }
 .body4{
-    width: 1519.2px;
+    width: 100%;
     height: 686px;
     display: flex;
     align-items: center;
@@ -392,7 +405,7 @@ flex-direction: row;
     padding-top: 66px;
 }
 .end{
-    width: 1519.2px;
+    width: 100%;
     height: 953.56px;
     background-color: black;
     display: flex;
@@ -424,6 +437,10 @@ flex-direction: row;
 .visit1{
     font-size: large;
     color: white;
+    cursor: pointer;
+}
+.visit1:hover{
+    text-decoration: underline;
 }
 .lastcontainer{
     display: flex;
@@ -442,7 +459,9 @@ flex-direction: row;
     cursor: pointer;
 }
 .last:hover{
-    background-color: rgba(85, 85, 85, 0.5);
+    background-color:transparent;
+    color: rgba(85, 85, 85, 0.5);
+    transition: 0.2s;
 }
 .container1{
     font-family: uber;
